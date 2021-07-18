@@ -1,54 +1,106 @@
 {
-  "employee": [
-    {
-      "id": "007",
-      "Name": "John Wick",
-      "email": "john@gmail.com",
-      "age": 34
-    },
-    {
-      "id": "008",
-      "Name": "Mark Andreessen",
-      "email": "mark@gmail.com",
-      "age": 33
-    },
-    {
-      "id": "009",
-      "Name": "kk kk",
-      "email": "kk@gmail.com",
-      "age": 33
-    },
-    {
-      "id": "001",
-      "Name": "kk kk",
-      "email": "kk@gmail.com",
-      "age": 33
-    }
-  ],
-  "tasks": [
-    {
-      "id": "007",
-      "Name": "John Wick",
-      "email": "john@gmail.com",
-      "age": 34
-    },
-    {
-      "id": "008",
-      "Name": "Mark Andreessen",
-      "email": "mark@gmail.com",
-      "age": 33
-    },
-    {
-      "id": "009",
-      "Name": "kk kk",
-      "email": "kk@gmail.com",
-      "age": 33
-    },
-    {
-      "id": "001",
-      "Name": "kk kk",
-      "email": "kk@gmail.com",
-      "age": 33
-    }
-  ]
+    "employee": [
+        {
+            "id": "007",
+            "Name": "John Wick",
+            "email": "john@gmail.com",
+            "age": 34
+        },
+        {
+            "id": "008",
+            "Name": "Mark Andreessen",
+            "email": "mark@gmail.com",
+            "age": 33
+        },
+        {
+            "id": "009",
+            "Name": "kk kk",
+            "email": "kk@gmail.com",
+            "age": 33
+        },
+        {
+            "id": "001",
+            "Name": "kk kk",
+            "email": "kk@gmail.com",
+            "age": 33
+        }
+    ],
+    "tasks": [
+        {
+            "id": "007",
+            "Name": "John Wick",
+            "email": "john@gmail.com",
+            "age": 34
+        },
+        {
+            "id": "008",
+            "Name": "Mark Andreessen",
+            "email": "mark@gmail.com",
+            "age": 33
+        },
+        {
+            "id": "009",
+            "Name": "kk kk",
+            "email": "kk@gmail.com",
+            "age": 33
+        },
+        {
+            "id": "001",
+            "Name": "kk kk",
+            "email": "kk@gmail.com",
+            "age": 33
+        }
+    ],
+    "prechecks": [
+        {
+            "id": "freshwork",
+            "prechecks": [
+                {
+                    "precheckId": "precheck1",
+                    "precheckName": "AuthStatus",
+                    "precheckData": {"Status": "Success"}
+                },
+                {
+                    "precheckId": "precheck2",
+                    "precheckName": "SourceCurrencyList",
+                    "precheckData": {"DataList": ["AUD", "USD"]}
+                },
+                {
+                    "precheckId": "precheck3",
+                    "precheckName": "DestinationCurrencyList",
+                    "precheckData": {"DataList": ["CAD", "USD"]}
+                },
+                {
+                    "precheckId": "precheck4",
+                    "precheckName": "ItemPrerequisites",
+                    "precheckData": {"AccountCodeStatus": "Partial", "AccountCodeMissingItem": ["Blossom"]}
+                }
+            ]
+        },
+        {
+            "id": "splend",
+            "prechecks": [
+                {
+                    "precheckId": "precheck1",
+                    "precheckName": "AuthStatus",
+                    "precheckData": {"Status": "Failure"}
+                },
+                {
+                    "precheckId": "precheck2",
+                    "precheckName": "SourceCurrencyList",
+                    "precheckData": {"DataList": ["GBP", "USD"]}
+                },
+                {
+                    "precheckId": "precheck3",
+                    "precheckName": "DestinationCurrencyList",
+                    "precheckData": {"DataList": ["GBP", "USD"]}
+                },
+                {
+                    "precheckId": "precheck4",
+                    "precheckName": "ItemPrerequisites",
+                    "precheckData": {"AccountCodeStatus": "Success"}
+                }
+            ]
+        }
+    ]
 }
